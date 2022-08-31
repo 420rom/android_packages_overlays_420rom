@@ -20,14 +20,14 @@
 
     <overlay
         android:targetPackage="android"
-        android:category="android.theme.customization.font"
+        android:category="android.theme.customisation.font"
         android:priority="1" />
 
     <application
         android:hasCode="false"
         android:label="@string/font_rubik_overlay">
         <meta-data
-            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:name="android.theme.customisation.REQUIRED_SYSTEM_FONTS"
             android:value="rubik,rubik-medium" />
     </application>
 </manifest>
